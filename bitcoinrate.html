@@ -8,13 +8,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="bitcoinrate.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body>
     <div class="card text-center mx-auto" style="width: 18rem;">
         <img class="card-img-top" src="https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1041896086%2F960x0.jpg%3Ffit%3Dscale" alt="Card image cap">
         <div class="card-body">
-            <h5 class="card-title">Bitcoin Price (USD)</h5>
-            <p class="card-text"><span class="price"></span></p>
+            <h5 class="card-title animated flipInX">Bitcoin Price (USD)</h5>
+            <p class="card-text"><span id="price"></span></p>
             <button class="btn btn-primary">Current Rate <i class="fab fa-bitcoin"></i></button>
         </div>
     </div>

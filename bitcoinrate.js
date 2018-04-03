@@ -1,5 +1,5 @@
 var btn = document.querySelector(".btn");
-var priceDisplay = document.querySelector(".price");
+var priceDisplay = document.querySelector("#price");
 var currency = "USD";
 
 
